@@ -6,15 +6,12 @@
 
 #include "opendefs.h"
 
-// CoAP
-#include "c6t.h"
-#include "cinfo.h"
-#include "cleds.h"
-#include "cwellknown.h"
+
 // TCP
 #include "techo.h"
 // UDP
 #include "uecho.h"
+#include "udplatency.h"
 
 //=========================== variables =======================================
 
@@ -25,13 +22,9 @@
 //=========================== private =========================================
 
 void openapps_init(void) {
-   // CoAP
-   c6t_init();
-   cinfo_init();
-   cleds__init();
-   cwellknown_init();
    // TCP
    techo_init();
    // UDP
    uecho_init();
+   udplatency_init();
 }

@@ -85,6 +85,8 @@ enum {
    //UDP
    WKP_UDP_COAP                        =  5683,
    WKP_UDP_ECHO                        =     7,
+   WKP_UDP_RAND						   = 61000,
+   WKP_UDP_LATENCY					   = 61001,
 };
 
 //status elements
@@ -146,12 +148,7 @@ enum {
    COMPONENT_OPENUDP                   = 0x18,
    COMPONENT_OPENCOAP                  = 0x19,
    // applications
-   COMPONENT_C6T                       = 0x1a,
-   COMPONENT_CEXAMPLE                  = 0x1b,
-   COMPONENT_CINFO                     = 0x1c,
-   COMPONENT_CLEDS                     = 0x1d,
-   COMPONENT_CSTORM                    = 0x1e,
-   COMPONENT_CWELLKNOWN                = 0x1f,
+   COMPONENT_UDPLATENCY               = 0x1f,
    COMPONENT_TECHO                     = 0x20,
    COMPONENT_TOHLONE                   = 0x21,
    COMPONENT_UECHO                     = 0x22,

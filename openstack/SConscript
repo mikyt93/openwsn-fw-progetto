@@ -103,15 +103,10 @@ else:
             os.path.join('#','openstack','cross-layers'),
             # openapps
             # TODO: remove once cleaned-up?
-            os.path.join('#','openapps','c6t'),
-            os.path.join('#','openapps','cexample'),
-            os.path.join('#','openapps','cinfo'),
-            os.path.join('#','openapps','cleds'),
-            os.path.join('#','openapps','cstorm'),
-            os.path.join('#','openapps','cwellknown'),
             os.path.join('#','openapps','techo'),
             os.path.join('#','openapps','tohlone'),
             os.path.join('#','openapps','uecho'),
+            os.path.join('#','openapps','udplatency'),
         ],
     )
     
